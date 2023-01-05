@@ -1,0 +1,93 @@
+<html>
+<head><title>Online Exam</title>
+</head>
+<body  bgcolor="lightblue">
+<fieldset>
+<legend><h2><b><u><center><font color="green"></font></b></u></center></h2></legend>
+<h1><center>Multi-Choice Online Examination 2023-24</center></h1>
+<center><form name="MCQ ONLINE EXAM"></center>
+<center><h2>Enter Register Number:<input type="text" name="reg" id="reg" ></h2></center>
+  
+<h2>Q1.Who is the founder of javascript?</h2>
+<h4><input type="radio" name="q1" value="q1a" id="q1">a) Dennis Ritchie</h4>
+<h4><input type="radio" name="q1" value="q1b" id="q1">b) Prof Jhon Kemeny </h4>
+<h4><input type="radio" name="q1" value="q1c" id="q1">c) Brendan Eich </h4>
+<h4><input type="radio" name="q1" value="q1d" id="q1">d) Bill Gates </h4>
+<br>
+
+<h2>Q2.Full form of CSS?</h2>
+<h3><input type="radio" name="q2" value="q2a" id="q2">a) Coloured Special Sheets </h3>
+<h3><input type="radio" name="q2" value="q2b" id="q2">b) Cascading style Sheets </h3>
+<h3><input type="radio" name="q2" value="q2c" id="q2">c) Color and Style Sheets </h3>
+<h3><input type="radio" name="q2" value="q2d" id="q2">d) None</h3>
+<br>
+  
+<h2>Q3.Which among these are server side scripting language?</h2>
+<h4><input type="radio" name="q3" value="q3a" id="q3">a) Javascript</h4>
+<h4><input type="radio" name="q3" value="q3b" id="q3">b) Html</h4>
+<h4><input type="radio" name="q3" value="q3c" id="q3">c) Css</h4>
+<h4><input type="radio" name="q3" value="q3d" id="q3">d) Php</h4>
+<br>
+     
+<h2>Q4.Which is a non-primitive data type of java?</h2>
+<h4><input type="radio" name="q4" value="q4a" id="q4">a) String</h4>
+<h4><input type="radio" name="q4" value="q4b" id="q4">b) Long</h4>
+<h4><input type="radio" name="q4" value="q4c" id="q4">c) Int</h4>
+<h4><input type="radio" name="q4" value="q4d" id="q4">d) FLoat</h4>
+<br>
+     
+<h2>Q5. In how many ways can CSS be written in?</h2>
+<h3><input type="radio" name="q5" value="q5a" id="q5">a) 1 </h3>
+<h3><input type="radio" name="q5" value="q5b" id="q5">b) 2 </h3>
+<h3><input type="radio" name="q5" value="q5c" id="q5">c) 3 </h3>
+<h3><input type="radio" name="q5" value="q5d" id="q5">d) 4 </h3>
+<br>
+  </fieldset>
+     
+  <form>
+  <input type="button" onclick="marks();" VALUE="SUBMIT"></INPUT>
+  <input type="reset"  VALUE="Reset"></INPUT>
+  </form>
+  <script type="text/javascript">
+     
+  function myFunction() {
+    alert("The form was submitted");
+  }
+     
+  function marks()
+  {
+  var a=document.exm.q1.value;
+  var b=document.exm.q2.value;
+  var c=document.exm.q3.value;
+  var d=document.exm.q4.value;
+  var e=document.exm.q5.value;
+  var m=0;
+     
+  if(a=="q1c")
+  {
+  m=m+1;
+  }
+  if(b=="q2b")
+  {
+  m=m+1;
+  }
+  if(c=="q3d")
+  {
+  m=m+1;
+  }
+  if(d=="q4a")
+  {
+  m=m+1;
+  }
+  if(e=="q5c")
+  {
+  m=m+1;
+  }
+  alert("Exam Over");
+  alert("You got "+m+" marks");
+   
+  }
+  </script>   
+  </body>
+  </html>
+
