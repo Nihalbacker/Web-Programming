@@ -1,0 +1,16 @@
+<html>
+<head>
+  <script>
+    function changeImage() {
+      document.getElementById("image").src = "day.jpeg";
+      document.getElementById("text").innerHTML = "Day";
+    }
+  </script>
+</head>
+<body>
+  <div onmouseover="changeImage()">
+    <img id="image" src="night.jpg">
+    <p id="text">Night</p>
+  </div>
+</body>
+</html>
